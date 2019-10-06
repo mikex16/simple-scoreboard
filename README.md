@@ -1,3 +1,8 @@
+simple-scoreboard
+A simple PHP script to help game developers creating an online scoreboard for their games.
+
+Instructions
+
 1. Install/find a web hoster with PHP and Mysql Support. Latest xampp/lampp should be great to run this script.
 2. Edit the "simple-scoreboard.php" and find the settings array (Line 7)
 3. Fill up the required parameter such as site password and database details.
