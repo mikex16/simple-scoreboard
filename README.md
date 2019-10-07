@@ -16,25 +16,45 @@ A simple PHP script to help game developers creating an online scoreboard for th
 
   1.1 mode "get_scores"
   
+    Display all players who scored between the range given in parameters.
+    
   1.2 mode "get_rank"
   
+    Display all players ranked between the range given in parameters.
+    
   1.3 mode "get_score_rank"
   
+    Get a score's rank.
+    
   1.4 mode "get_score_to_rank"
+  
+	  Get score(s) needed to achieve a certain rank, which may be given in percentage
   
   1.5 mode "get_player"
   
+	  Get a player's score and rank. If the range parameter is specified and contains a number, also shows scores near the selected player
+  
   1.6 mode "get_count"
+  
+    Get number of submitted scores
   
   1.7 mode "send"
   
+    Send a new score
+	
 <h3>2.0 Mode with password required</h3>
 
   2.1 mode "new_game"
-  
+	  
+    New game mode. Create a new game for scores to be submitted.
+	
   2.2 mode "random_scores"
+	
+    Inserts 100 random scores on game provided within parameters, without checking. For testing purposes.
   
   2.3 mode "reset_scores"
+	
+    Resets score tables for the game provided within parameters
   
 <h3>3.0 Default Mode required password to proceed</h3>
 
