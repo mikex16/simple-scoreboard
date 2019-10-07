@@ -13,17 +13,28 @@ A simple PHP script to help game developers creating an online scoreboard for th
 <h2><b>MODE</b></h2>
 "http://[URL or IP]/simple-scoreboard.php?password=[your-password]&mode=[MODE]"
 <h3>1.0 Mode with no password</h3>
+
   1.1 mode "get_scores"
+  
   1.2 mode "get_rank"
+  
   1.3 mode "get_score_rank"
+  
   1.4 mode "get_score_to_rank"
+  
   1.5 mode "get_player"
+  
   1.6 mode "get_count"
+  
   1.7 mode "send"
+  
 <h3>2.0 Mode with password required</h3>
   2.1 mode "new_game"
+  
   2.2 mode "random_scores"
+  
   2.3 mode "reset_scores"
-  2.4 mode ""
+  
 <h3>3.0 Default Mode required password to proceed</h3>
+
   Default mode, when no parameter is passed. Create score tables if they don't exist, then displays help files.
