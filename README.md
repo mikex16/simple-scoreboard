@@ -29,6 +29,7 @@ A simple PHP script to help game developers creating an online scoreboard for th
   1.7 mode "send"
   
 <h3>2.0 Mode with password required</h3>
+
   2.1 mode "new_game"
   
   2.2 mode "random_scores"
